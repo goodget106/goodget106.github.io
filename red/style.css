@@ -1,0 +1,29 @@
+#menu{
+    width: 100vw;
+    height: 10vh;
+    background-image: url(floor-1256804_1920.jpg);
+    background-position: center;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    body,html{
+    margin: 0;
+    }
+    #name{
+    font-size: 200%;
+    color: white;
+    background-color: green;
+    }
+    #menu>a{
+    text-decoration: none;
+    color:silver;
+    font-size: 175%;
+    }
+    #menu>a:hover{
+    font-size: 200%;
+    color:white;
+    font-weight: bold;
+    }
